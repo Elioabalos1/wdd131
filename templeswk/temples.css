@@ -6,7 +6,7 @@
     --text-font: "Roboto", sans-serif;
     --text-color: black;
 }
-
+/* Style */
 body {
     font-family: var(--text-font);
     color: var(--text-color);
@@ -91,6 +91,8 @@ footer {
     padding: 5px 0;
     background-color: var(--primary-color);
 }
+
+/* configuration */
 
 @media (max-width: 600px) {
     nav {
