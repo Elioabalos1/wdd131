@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China</title>
+    <meta name="description" content="Place activity to show responsive desing, images and text in small devices">
+    <meta name="author" content="Elio Abalos">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="with-flags"> CHINA </h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/china-large.jpg" media="(min-width: 1000px)">
+                <source srcset="images/china-medium.jpg" media="(min-width: 500px)">
+                <img src="images/china-small.jpg" alt="Imagen de China" width="500" height="250">
+            </picture>
+            <div class="data-box">
+                <div class="box-title">
+                    <span class="data-title">China Data</span>
+                </div>
+                <p>
+                    Area: 9,596,961 km²<br>
+                    Population: Approximately 1,425,000,000<br>
+                    Capital: Beijing<br>
+                    Languages: Mandarin Chinese (official), plus regional languages like Cantonese, Uighur, Tibetan,
+                    Zhuang, and others<br>
+                    Currency: Renminbi (Yuan-¥)<br>
+                    Time Zone: China Standard Time (CST) UTC+8 (no daylight saving time)<br>
+                    Calling Code: +86<br>
+                    Internet TLD: .cn<br>
+                </p>
+            </div>
+
+            <div class="weather-box">
+                <div class="box-title">
+                    <span class="weather-title">Weather</span>
+                </div>
+                <p id="weather-data"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&#169; <span id="currentyear"></span> ⚽ Elio Abalos ⚽ Santa Fe, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
